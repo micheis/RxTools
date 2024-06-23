@@ -1,0 +1,4 @@
+rootProject.name = "RxTools"
+include ':app'
+include ':Rxkit'
+include ':RxUI'
