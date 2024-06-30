@@ -6,7 +6,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.micheis.rxkit.RxTools;
+//import com.micheis.rxkit.RxTools;
 
 /**
  * ================================================
@@ -27,10 +27,10 @@ public class MainActivity extends AppCompatActivity {
 
         tv_text = findViewById(R.id.tv_text);
 
-        tv_text.setOnClickListener(v -> {
-            RxTools.delayToDo(3000, () -> {
-                Toast.makeText(RxTools.getContext(), "你点击了按钮", Toast.LENGTH_LONG).show();
-            });
-        });
+//        tv_text.setOnClickListener(v -> {
+//            RxTools.delayToDo(3000, () -> {
+//                Toast.makeText(RxTools.getContext(), "你点击了按钮", Toast.LENGTH_LONG).show();
+//            });
+//        });
     }
 }
