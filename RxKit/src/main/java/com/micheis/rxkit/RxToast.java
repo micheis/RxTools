@@ -1,5 +1,7 @@
 package com.micheis.rxkit;
 
+import android.widget.Toast;
+
 /**
  * ================================================
  *
@@ -9,4 +11,7 @@ package com.micheis.rxkit;
  * ================================================
  */
 public class RxToast {
+    public static void show(String message) {
+        Toast.makeText(RxTools.getContext(), message, Toast.LENGTH_LONG).show();
+    }
 }
