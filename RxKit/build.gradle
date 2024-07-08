@@ -44,9 +44,9 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.micheky.RxTools' //groupId 随便取
+                groupId = 'com.micheks.RxTools' //groupId 随便取
                 artifactId = 'micheky'  //artifactId 随便取
-                version = '1.0.0'
+                version = '1.0.8'
             }
         }
     }
